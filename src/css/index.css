@@ -1,11 +1,6 @@
 body,
-.container-0,
-.container-1,
-.container-2,
-.dice,
-.header,
-.body,
-.footer {
+.container,
+.dice {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,25 +14,10 @@ body {
   background: #70ffee;
 }
 
-.container-0 {
+.container {
   height: 700px;
   width: 700px;
-  border-radius: 53px;
-  background: #70ffee;
-  box-shadow: 22px 22px 1px #32736b, -22px -22px 1px #aeffff;
-}
-
-.container-1 {
-  height: 600px;
-  width: 600px;
-  border-radius: 53px;
-  background: #70ffee;
-  box-shadow: 22px 22px 1px #32736b, -22px -22px 1px #aeffff;
-}
-
-.container-2 {
-  height: 500px;
-  width: 500px;
+  margin: 50px;
   border-radius: 53px;
   background: #70ffee;
   box-shadow: 22px 22px 1px #32736b, -22px -22px 1px #aeffff;
@@ -46,27 +26,10 @@ body {
 .dice {
   height: 400px;
   width: 400px;
+  margin: 50px;
   border-radius: 53px;
   background: #70ffee;
   box-shadow: 22px 22px 1px #32736b, -22px -22px 1px #aeffff;
-}
-
-.header {
-  height: 100px;
-  width: 350px;
-}
-
-.body {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  background: #70ffee;
-  box-shadow: 5px 5px 10px #32736b, -5px -5px 10px #aeffff;
-}
-
-.footer {
-  height: 80px;
-  width: 250px;
 }
 
 .random-button {
@@ -79,5 +42,5 @@ body {
 }
 
 .number {
-  font-size: 10em;
+  font-size: 22em;
 }
