@@ -61,5 +61,4 @@ function hideDice () {
 }
 
 const button = document.querySelector('.random-button')
-
 button.addEventListener('click', changeNumber)
