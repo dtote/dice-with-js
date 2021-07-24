@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neeestor08/dice-with-js.git"
+    "url": "git+https://github.com/dtote/dice-with-js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neeestor08/dice-with-js/issues"
+    "url": "https://github.com/dtote/dice-with-js/issues"
   },
-  "homepage": "https://github.com/neeestor08/dice-with-js#readme",
+  "homepage": "https://github.com/dtote/dice-with-js#readme",
   "devDependencies": {
     "eslint": "^7.20.0",
     "eslint-config-standard": "^16.0.2",
